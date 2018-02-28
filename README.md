@@ -9,8 +9,8 @@ git clone https://github.com/bingang/testbenchDCS
 cd testbenchDCS  
 sudo docker build BitcoinDev -t bitcoindev  
 sudo docker-compose build  
-Sudo docker swarm init  --addvertise-addr <manager的IP>    
-Sudo docker swarm join –token <步驟4的output>  
+sudo docker swarm init  --addvertise-addr <manager的IP>    
+sudo docker swarm join –token <步驟4的output>  
 sudo docker network create --driver overlay BitcoinNetworkName   
 cd workspace  
 ./masternodecreate.sh  
