@@ -66,6 +66,6 @@ with open("docker-compose.yml", "w") as myfile:
     myfile.write("\n")
     myfile.write("  external:")
     myfile.write("\n")
-    myfile.write("    name: mybitcoin")
+    myfile.write("    name: BitcoinNetworkName")
     myfile.write("\n")
 print "Create Done "
